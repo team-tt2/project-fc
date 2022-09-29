@@ -13,7 +13,9 @@ header .container {
   border-radius: 6px;
 }
 
-.predict .container {
+.predict .container,
+.introduce .container,
+.team .container {
   max-width: 1280px;
   margin-inline: auto;
   padding: 1rem;
@@ -36,7 +38,8 @@ header .container {
   width: 80px;
 }
 
-.predict .btn-wrap button {
+.predict .btn-wrap button,
+.introduce .btn-wrap button {
   border: none;
   outline: none;
   padding: 0.5rem 0.75rem;
@@ -48,7 +51,8 @@ header .container {
   transition: background-color 0.5s ease-in-out;
 }
 
-.predict .btn-wrap button:hover {
+.predict .btn-wrap button:hover,
+.introduce .btn-wrap button:hover {
   background-color: #4dabf7;
 }
 
