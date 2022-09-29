@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="ko">
+    <!--    ,. -ｰ冖'⌒'ｰ-､
+　　　　　　　,ノ　　　　　　　　 ＼
+　　　　　 　/　,r‐へへく⌒'￢､　 ヽ
+　　　　　　 {ノ へ.._、 ,,／~`　　〉 　｝　　　　,r=-､
+　　　　 　／プ￣`y'¨Y´￣ヽ―}j=く　　　　/,ミ=/
+　　　　ノ　/レ'>-〈＿ｭ`ー‐'　　ﾘ,ｲ} 　　　〃　/
+　　　/　_勺 ｲ;；∵r;==､､∴'∵;　シ　 　 〃　/
+　　,/　└' ノ ＼ 　 こ¨｀　　　 ノ{ー--､〃__/
+　 人＿_/ー┬ 个-､＿_,,..　‐'´ 〃`ァーｧー＼
+. /　　　|／　|::::::|､　　　　　　　〃　/:::::/ 　　　ヽ
+/　　　｜ 　 |::::::|＼､_________／' 　 /:::::/〃 -->
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <title>치킨먹자 🍗</title>
+    <script src="public/main.js"></script>
   </head>
   <body>
+  
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="left-side"><a href="/">피보나치킨</a></div>
+        <div class="right-side">
+          <a href="https://github.com/team-tt2/project-fc" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+  <div class="introduce">
+    <h1>FibonaChicken</h1>
+    <p>
+      세상 만사 모든 것의 균형은 황금 비율에서 그 해답을 찾을 수 있고,<br>
+      이를 수학적으로 풀어낸것이 바로 피보나치 수열이니라.<br>
+      일찍이 선지자가 있어, 치킨과 피보나치 수열의 관계를 밝힌 자들이 있으니<br>
+      그들의 끝을 모르는 탐구 정신과 널리 인간과 치킨을 이롭게 하려는 마음을 높이 사,<br>
+      내 잠시 짬을 내어 허접한 코드질을 하였으니 이를 <strong>피보나치킨</strong> 계산기라고 부르도록 하겠다.<br>
+    </p>
+    <p>마지막 업데이트: 2014-12-21</p>
+  </div>
+  <div class="btn">선지자들의 자취</div>
+  
+    <!-- predict section -->
+    <section class="predict">
+      <div class="container">
+        <h2>몇 명이나 먹을 수 있을까요? 🍗</h2>
+        <form class="form-wrap">
+          <div class="input-wrap">
+            <input class="underline" type="number" />
+            <p>명이나 드시려고요? 🤔</p>
+          </div>
+          <div class="btn-wrap">
+            <button type="button">점지</button>
+          </div>
+        </form>
+        <div class="result"></div>
+      </div>
+    </section>
+    
     <div class="team">
       <div class="team-name">
         <h3>팀 소개</h3>
@@ -21,5 +85,5 @@
         <p>팀원: 유지석, 우지수, 김정훈</p>
       </div>
     </div>
-  </body>
+</body>
 </html>
